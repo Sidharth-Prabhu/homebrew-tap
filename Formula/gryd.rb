@@ -1,25 +1,25 @@
 class Gryd < Formula
   desc "Multi-service development orchestrator and interactive TUI dashboard"
   homepage "https://github.com/Sidharth-Prabhu/gryd"
-  version "0.2.1"
+  version "0.3.0"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/Sidharth-Prabhu/gryd/releases/download/v0.2.1/gryd_darwin_arm64.tar.gz"
-      sha256 "446f07263a0f1ecc4e36ef89d55ca012f2d18105c9bb3c9ada13aff24baf0662"
+      url "https://github.com/Sidharth-Prabhu/gryd/releases/download/v0.3.0/gryd_darwin_arm64.tar.gz"
+      sha256 "983b7060b1383340e76227a8c372626a773d8e9e906765e97ffe461102962196"
     else
-      url "https://github.com/Sidharth-Prabhu/gryd/releases/download/v0.2.1/gryd_darwin_amd64.tar.gz"
-      sha256 "c3892df333872a410470ad80120078d2ae7f3575af0f45d5255fac2490ec4fca"
+      url "https://github.com/Sidharth-Prabhu/gryd/releases/download/v0.3.0/gryd_darwin_amd64.tar.gz"
+      sha256 "0ddafc40b31d97aba7ea197062fa9ee0189ff0bfa8a570e4320306daa53f8ad8"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/Sidharth-Prabhu/gryd/releases/download/v0.2.1/gryd_linux_arm64.tar.gz"
-      sha256 "e45d9db2233639e652b85244c75fa9d9b1bd89043c3309c8bc9cc65dd5dead30"
+      url "https://github.com/Sidharth-Prabhu/gryd/releases/download/v0.3.0/gryd_linux_arm64.tar.gz"
+      sha256 "2c2270da651463038ba0e83790b7ad78329b12b8f551f203ff669a6298c64262"
     else
-      url "https://github.com/Sidharth-Prabhu/gryd/releases/download/v0.2.1/gryd_linux_amd64.tar.gz"
-      sha256 "241eb1b60b8db51556bf4086a897882f07c30bd7ac89d705fc4e16461efd39bb"
+      url "https://github.com/Sidharth-Prabhu/gryd/releases/download/v0.3.0/gryd_linux_amd64.tar.gz"
+      sha256 "1230c645d0ac87c0a1a28fb40589f8b6a7a112dffb7827e50147a369dd88bdb5"
     end
   end
 
