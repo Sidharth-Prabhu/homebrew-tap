@@ -6,20 +6,20 @@ class Gryd < Formula
   on_macos do
     if Hardware::CPU.arm?
       url "https://github.com/Sidharth-Prabhu/gryd/releases/download/v0.3.0/gryd_darwin_arm64.tar.gz"
-      sha256 "983b7060b1383340e76227a8c372626a773d8e9e906765e97ffe461102962196"
+      sha256 "b9ef88b427dd3ece87e18d45d8d45419085316666c4691677494cd4e59ede6be"
     else
       url "https://github.com/Sidharth-Prabhu/gryd/releases/download/v0.3.0/gryd_darwin_amd64.tar.gz"
-      sha256 "0ddafc40b31d97aba7ea197062fa9ee0189ff0bfa8a570e4320306daa53f8ad8"
+      sha256 "af09da57d363cb09662e85aac39cdb8f4307967b4e49c996670abadb385bae99"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
       url "https://github.com/Sidharth-Prabhu/gryd/releases/download/v0.3.0/gryd_linux_arm64.tar.gz"
-      sha256 "2c2270da651463038ba0e83790b7ad78329b12b8f551f203ff669a6298c64262"
+      sha256 "c818328f3b555307ffdd24e514117294ef0987bb3d9d8eac9fec119069aa5b53"
     else
       url "https://github.com/Sidharth-Prabhu/gryd/releases/download/v0.3.0/gryd_linux_amd64.tar.gz"
-      sha256 "1230c645d0ac87c0a1a28fb40589f8b6a7a112dffb7827e50147a369dd88bdb5"
+      sha256 "10086c8baa2c55e43ca3c037641ac8c4d2e0e204914a8f9d267945e0c73317e5"
     end
   end
 
